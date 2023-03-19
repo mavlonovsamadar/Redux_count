@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background:url('https://cdn2.vectorstock.com/i/1000x1000/52/81/redux-emblem-on-white-bg-vector-27645281.jpg');
+    background-size: 790px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
   }
-  to {
-    transform: rotate(360deg);
+  .count{
+    width: 170px;
+    background: aquamarine;
+    text-align: center;
+    margin-left: 170px;
   }
-}
+  .count_btn{
+    background-color: cadetblue;
+    width: 300px;
+    margin-top: 10px;
+    border: none;
+    height: 40px;
+    
+  }
+  .count_1{
+    background-color: cadetblue;
+    width: 300px;
+    margin-top: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+  margin-left: 110px;
+  }
+  .value{
+    color: brown;
+    text-align: center;
+  }
+  .both{
+    display: flex;
+    gap: 10px;
+  }
+  .input{
+   text-align: center;
+  margin-left: 110px;
+  }
